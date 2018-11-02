@@ -21,6 +21,10 @@
     width: 155px;
 }
 
+.blog{
+    margin-right: 20px;
+}
+
 .diversidad-title{
     font-size: 32px;
     font-family: 'Rubik', sans-serif;
@@ -77,6 +81,10 @@
     display: flex;
     justify-content: space-around;
     width: 155px;
+}
+
+.blog{
+    margin-right: 20px;
 }
 
 .diversidad-title{
