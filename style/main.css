@@ -8,6 +8,7 @@ body{
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #ffffff;
 }
 
 .menu-nav-link{
