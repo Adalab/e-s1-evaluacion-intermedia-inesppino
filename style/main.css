@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .header-container{
     display: flex;
     align-items: center;
@@ -15,10 +19,12 @@
     text-align: center;
 }
 
-.menu-nav {
+.list-menu{
+    list-style: none;
     display: flex;
     justify-content: space-around;
     width: 155px;
+    padding: 0;
 }
 
 .blog{
