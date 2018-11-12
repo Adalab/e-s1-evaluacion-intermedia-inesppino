@@ -25,6 +25,7 @@ body{
     justify-content: space-around;
     width: 155px;
     padding: 0;
+    text-transform: uppercase;
 }
 
 .blog{
@@ -37,6 +38,7 @@ body{
     color: #ffffff;
     text-align: center;
     width: 200px;
+    text-transform: capitalize;
 }
 
 .main-content{
