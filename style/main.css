@@ -47,10 +47,10 @@ body{
     width: 100%;
     height: 80%;
     position: absolute;
-    top: 125px;
+    top: 105px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,70 +81,60 @@ body{
 
 @media all and (min-width:768px){
 
-.header-container{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+    .header-container{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.menu-nav-link{
-    font-family: 'Rubik', sans-serif;
-    color: #4a4a4a;
-    font-size: 16px;
-    text-decoration: none;
-    margin-right: 30px;
-    text-align: center;
-}
+    .menu-nav-link{
+        font-family: 'Rubik', sans-serif;
+        color: #4a4a4a;
+        font-size: 16px;
+        text-decoration: none;
+        margin-right: 30px;
+        text-align: center;
+    }
 
-.menu-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 155px;
-}
+    .menu-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 155px;
+    }
 
-.blog{
-    margin-right: 20px;
-}
+    .blog{
+        margin-right: 20px;
+    }
 
-.diversidad-title{
-    font-size: 40px;
-    font-family: 'Rubik', sans-serif;
-    color: #ffffff;
-    text-align: center;
-}
+    .title-container{
+        transform: translateY(-25px);
+    }
 
-.main-content{
-    background-color: #3cdbc0;
-    width: 100%;
-    /* height: 100%; */
-    position: absolute;
-    top: 125px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    .diversidad-title{
+        font-size: 40px;
+        font-family: 'Rubik', sans-serif;
+        color: #ffffff;
+        text-align: center;
+    }
 
-.logo-img{
-    width: 155px;
-    margin: 20px 0px 20px 30px;
-}
+    .logo-img{
+        width: 155px;
+        margin: 20px 0px 20px 30px;
+    }
 
-.header{
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-}
+    .header{
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+    }
 
-.foot{
-    padding: 30px;
-    z-index: 2;
-    text-align: left;
-}
+    .foot{
+        padding: 30px;
+        z-index: 2;
+        text-align: left;
+    }
 
 }
